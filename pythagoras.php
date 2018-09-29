@@ -24,7 +24,7 @@ $trojuhelnikobsah = ceil($strana * $vyska / 2);
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Pythagoras a ine</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -67,6 +67,9 @@ $trojuhelnikobsah = ceil($strana * $vyska / 2);
 
       <div class="starter-template">
       
+      
+<div class="col-md-6">
+
         <h1>
 <?php
   echo 'Obdélník';
@@ -95,6 +98,10 @@ $trojuhelnikobsah = ceil($strana * $vyska / 2);
         </tr>
       </tbody>
     </table>
+
+</div>
+
+<div class="col-md-6">
 
         <h1>
 <?php
@@ -129,6 +136,9 @@ $trojuhelnikobsah = ceil($strana * $vyska / 2);
       </tbody>
     </table>
 
+
+<div class="col-md-6">
+
     <div class="container">
         <h1 class="display-4">Vzpomínka ma Pythagora</h1>
           <img src="https://i2.wp.com/www.brainpickings.org/wp-content/uploads/2018/05/pythagoras_knapp.jpg?resize=676%2C1024&ssl=1">
@@ -141,6 +151,7 @@ $trojuhelnikobsah = ceil($strana * $vyska / 2);
         
     </div>
 
+</div>
 
 
     </main><!-- /.container -->
