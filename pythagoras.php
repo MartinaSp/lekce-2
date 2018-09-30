@@ -35,7 +35,7 @@ $trojuhelnikobsah = ceil($strana * $vyska / 2);
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="#">Starověká matematika</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -67,8 +67,8 @@ $trojuhelnikobsah = ceil($strana * $vyska / 2);
 
       <div class="starter-template">
       
-      
-<div class="col-md-6">
+<div class='row'>      
+    <div class="col-md-6">
 
         <h1>
 <?php
@@ -99,7 +99,7 @@ $trojuhelnikobsah = ceil($strana * $vyska / 2);
       </tbody>
     </table>
 
-</div>
+    </div>
 
 <div class="col-md-6">
 
@@ -135,26 +135,39 @@ $trojuhelnikobsah = ceil($strana * $vyska / 2);
         </tr>
       </tbody>
     </table>
+</div>
 
 
-<div class="col-md-6">
+<div class="container">
 
-    <div class="container">
+    <div class='row'>   
+      <div class="col-md-6">
+
         <h1 class="display-4">Vzpomínka ma Pythagora</h1>
-          <img src="https://i2.wp.com/www.brainpickings.org/wp-content/uploads/2018/05/pythagoras_knapp.jpg?resize=676%2C1024&ssl=1">
         
         <p class="lead">Pythagoras ze Samu (také Pýthagorás, řec. Πυθαγόρας ο Σάμιος, okolo 570 př. n. l. ostrov Samos – po 510 př. n. l. Krotón v jižní Itálii) byl legendární řecký filosof, matematik, astronom i kněz. Byl také veřejně činný, ale údaje o něm se často rozcházejí. Z jeho díla (pokud nějaké napsal) se nic nezachovalo, založil však velmi významnou školu a výklady i legendy jeho následovníků překryly jeho původní myšlenky, takže se velmi obtížně rekonstruují. Pythagorejská tradice měla velký vliv na Platóna, byla živá v novoplatónismu, v renesanci a v různých – často fantastických - podobách žije i dnes.
         Pythagorova věta popisuje vztah, který platí mezi délkami stran pravoúhlých trojúhelníků v euklidovské rovině. Umožňuje dopočítat délku třetí strany takového trojúhelníka, pokud jsou známy délky dvou zbývajících stran.
 
         Věta zní: Obsah čtverce sestrojeného nad přeponou (nejdelší stranou) pravoúhlého rovinného trojúhelníku je roven součtu obsahů čtverců nad jeho odvěsnami (dvěma kratšími stranami).
         </p>
+      </div>
         
+      <div class="col-md-6">
+      
+        <img src="https://i2.wp.com/www.brainpickings.org/wp-content/uploads/2018/05/pythagoras_knapp.jpg?resize=676%2C1024&ssl=1" width="450" height="600" alt="Computer Hope">  
+      </div>
+      
     </div>
+    
+</div>  <!-- /.container -->
 
-</div>
+</main>
 
+    <footer class="container">
+      <p>&copy; Programators</p>
+    </footer>
 
-    </main><!-- /.container -->
+   
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
